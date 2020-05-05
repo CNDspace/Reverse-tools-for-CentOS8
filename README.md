@@ -13,3 +13,6 @@ Installed tools:
   tcpdump
   ole-tools
   Didier Stevens PDF Tools
+# Installation
+wget https://raw.githubusercontent.com/CNDspace/Reverse-tools-for-CentOS8/master/install_script.sh
+./install_script.sh
