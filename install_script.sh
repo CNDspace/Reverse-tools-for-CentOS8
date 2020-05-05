@@ -2,11 +2,6 @@
 #Created by Alex Zherdev for CentOS8
 #Moscow Aviation Institute
 
-if [ $EUID != 0]; then
-	sudo "$0" "$@"
-	exit $?
-fi
-
 sudo dnf update -y
 sudo dnf install python2 -y
 sudo dnf install git -y
