@@ -25,4 +25,3 @@ for a in `ls ~/pdf-tools/*.zip`; do unzip -d ~/pdf-tools/ $a; done && rm ~/pdf-t
 sudo git clone https://github.com/longld/peda.git ~/peda
 sudo su
 echo "source ~/peda/peda.py" >> /.gdbinit
-reboot
