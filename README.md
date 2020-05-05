@@ -14,5 +14,7 @@ Installed tools:
   ole-tools
   Didier Stevens PDF Tools
 # Installation
+```Shell
 wget https://raw.githubusercontent.com/CNDspace/Reverse-tools-for-CentOS8/master/install_script.sh
 ./install_script.sh
+```
