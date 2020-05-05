@@ -1,4 +1,4 @@
-# Reverse-tools-for-CentOS8
+# Reverse tools for CentOS8
 Install reverse tools for CentOS 8
 This script install tools for CentOS 8
 Installed tools:
