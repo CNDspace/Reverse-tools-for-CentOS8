@@ -2,7 +2,7 @@
 #Created by Alex Zherdev for CentOS8
 #Moscow Aviation Institute
 
-#sudo dnf update -y
+sudo dnf update -y
 sudo dnf install python2 -y
 sudo dnf install git -y
 sudo dnf install epel-release -y
@@ -12,9 +12,8 @@ sudo dnf install https://forensics.cert.org/cert-forensics-tools-release-el8.rpm
 sudo dnf install ghidra -y
 sudo dnf install radare2 -y 
 sudo dnf install wireshark -y
+xhost +si:localuser:root
 sudo dnf install gdb -y
-#sudo git clone https://github.com/longld/peda.git ~/peda
-#sudo echo "source ~/peda/peda.py" >> /.gdbinit
 sudo dnf install hexedit -y
 sudo dnf install tcpdump -y
 sudo -H python3 -m pip install -U oletools
