@@ -17,6 +17,7 @@ sudo dnf install gdb -y
 sudo dnf install hexedit -y
 sudo dnf install tcpdump -y
 sudo -H python3 -m pip install -U oletools
+sudo dnf install yara
 wget -P	~/pdf-tools https://didierstevens.com/files/software/pdf-parser_V0_7_4.zip
 wget -P	~/pdf-tools https://didierstevens.com/files/software/make-pdf_V0_1_7.zip
 wget -P	~/pdf-tools https://didierstevens.com/files/software/pdfid_v0_2_7.zip
