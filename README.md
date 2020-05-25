@@ -7,7 +7,7 @@ Installed tools:
 - epel-release # Extra Packages for Enterprise Linux 
 - LiFTeR # Linux Forensics Tools Repository
 - Ghidra
-- radare2
+- radare2/Cutter
 - Wireshark
 - gdb and gdb-peda
 - hexedit
