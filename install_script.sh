@@ -4,7 +4,6 @@
 
 sudo dnf update -y
 sudo dnf install python2 -y
-sudo dnf install git -y
 sudo dnf install epel-release -y
 sudo dnf update epel-release -y
 sudo dnf config-manager --set-enabled PowerTools
