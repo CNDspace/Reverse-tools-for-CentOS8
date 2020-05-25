@@ -10,7 +10,8 @@ sudo dnf update epel-release -y
 sudo dnf config-manager --set-enabled PowerTools
 sudo dnf install https://forensics.cert.org/cert-forensics-tools-release-el8.rpm -y
 sudo dnf install ghidra -y
-sudo dnf install radare2 -y 
+sudo dnf install radare2 -y
+sudo dnf install cutter-re -y
 sudo dnf install wireshark -y
 xhost +si:localuser:root
 sudo dnf install gdb -y
