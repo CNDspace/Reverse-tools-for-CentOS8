@@ -17,6 +17,7 @@ Installed tools:
 # Installation
 ```shell
 git clone https://github.com/CNDspace/Reverse-tools-for-CentOS8.git
+cd Reverse-tools-for-CentOS8
 chmod 755 install_script.sh
 ./install_script.sh
 ```
