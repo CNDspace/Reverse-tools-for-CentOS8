@@ -8,7 +8,7 @@ sudo dnf install epel-release -y
 sudo dnf config-manager --set-enabled PowerTools
 sudo dnf install https://forensics.cert.org/cert-forensics-tools-release-el8.rpm -y
 sudo dnf update -y
-sudo dnf install python2 ghidra radare2 cutter-re wireshark gdb hexedit tcpdump yara -y #Install main tools with default packet-manager
+sudo dnf install 7z unrar python2 ghidra radare2 cutter-re wireshark gdb hexedit tcpdump yara -y #Install main tools with default packet-manager
 xhost +si:localuser:root
 sudo -H python3 -m pip install -U oletools
 #Download pdf-tools using wget
